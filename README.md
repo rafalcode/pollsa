@@ -48,3 +48,6 @@ e can then use ./amange.py shell to put in a poll in json format, without authen
 just using manage,shell
 
 At rev 442a8e4 stage, we can see fill raw json when we visit the polls, but polls/1 doesn't work.
+
+Anyhow speed on to APIview, which is the nice web view of the api. Actually we jump the views.py, now using apiviews
+which makes sense, this is an api site.
