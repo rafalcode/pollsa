@@ -46,3 +46,5 @@ After this we start with thhe DRF by merely putting in a "serializer.py" file in
 it will import serializer from DRF and we can create classes on the ModelSerializer from that unit.
 e can then use ./amange.py shell to put in a poll in json format, without authenticating actually,
 just using manage,shell
+
+At rev 442a8e4 stage, we can see fill raw json when we visit the polls, but polls/1 doesn't work.
