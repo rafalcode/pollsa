@@ -36,3 +36,8 @@ has a special section named after the app (polls)!  Nothing really in it, but ad
 
 Beware writing a file which has an extension the same as the basename os anther file.
 I.e. polls.urls .. that actaully refers to polls/urls.py , not a file that you should create acalleed polls.urls!
+
+OK.. reach ed the point just before using DRF, I went into admin and was able to put in a polls.question
+and choices, all from the admin both on local host and remotely. However I authenticated as admin user "ubuntu"
+so you woul dnot be able to post otherwise would you? Answer, as expected, yo get an error. Only reading possible
+unless, as I say, you authenticate via admin panel.
