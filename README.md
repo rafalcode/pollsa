@@ -41,3 +41,8 @@ OK.. reach ed the point just before using DRF, I went into admin and was able to
 and choices, all from the admin both on local host and remotely. However I authenticated as admin user "ubuntu"
 so you woul dnot be able to post otherwise would you? Answer, as expected, yo get an error. Only reading possible
 unless, as I say, you authenticate via admin panel.
+
+After this we start with thhe DRF by merely putting in a "serializer.py" file int he app folder
+it will import serializer from DRF and we can create classes on the ModelSerializer from that unit.
+e can then use ./amange.py shell to put in a poll in json format, without authenticating actually,
+just using manage,shell
