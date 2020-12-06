@@ -56,3 +56,5 @@ OK, generics was brought in I could post with
  http POST http://rxapi.plusvital.com:8000/polls/  < liverpool.json
 
 And also the web interface has options now and you can use the api web to input your own questions.
+
+Before going in to improve the URL structure to better reflect the application, I want to get the nginx working.
