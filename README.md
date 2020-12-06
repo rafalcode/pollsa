@@ -32,3 +32,7 @@ and then try the admin site again
 
 OK, so I see now (at rev b6a685a) that the admin;py file worked! The admin site used to only have author and authent, not i
 has a special section named after the app (polls)!  Nothing really in it, but admin site knows about them, great!
+
+
+Beware writing a file which has an extension the same as the basename os anther file.
+I.e. polls.urls .. that actaully refers to polls/urls.py , not a file that you should create acalleed polls.urls!
