@@ -51,3 +51,8 @@ At rev 442a8e4 stage, we can see fill raw json when we visit the polls, but poll
 
 Anyhow speed on to APIview, which is the nice web view of the api. Actually we jump the views.py, now using apiviews
 which makes sense, this is an api site.
+
+OK, generics was brought in I could post with
+ http POST http://rxapi.plusvital.com:8000/polls/  < liverpool.json
+
+And also the web interface has options now and you can use the api web to input your own questions.
