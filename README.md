@@ -16,6 +16,8 @@ It took a while to solve this. I finally got it at rev ef4db20
 serve on that as normal user. I fell into thinking that I would not be able to access a page into a normaluser's
 folder. I was sure that was it but the above runserver line actually worked, so that was a blidn alley).
 
+Note 8000 is not https, only http. Naturally.
+
 A this stage, (ef4db20, and followin grev) does admin work? Yes, you need to createsuperuser from ./manage.py
 and this will let you in. It only has groups and users. Very bare.
 
@@ -27,3 +29,6 @@ It's not really tested either. And the VOte model doesn't go in.
 
 OK, it now appears that an admin.py is created in the polls app. right so I fill it in according to above. git commit this
 and then try the admin site again
+
+OK, so I see now (at rev b6a685a) that the admin;py file worked! The admin site used to only have author and authent, not i
+has a special section named after the app (polls)!  Nothing really in it, but admin site knows about them, great!
